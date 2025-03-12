@@ -1,0 +1,145 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #1a1a1a;
+    color: #fff;
+    line-height: 1.6;
+}
+
+/* Navigation Bar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    background-color: #333;
+}
+
+nav .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav .nav-links {
+    list-style: none;
+}
+
+nav .nav-links li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav .nav-links a:hover {
+    color: #f39c12;
+}
+
+/* Hero Section */
+.hero {
+    height: 100vh;
+    background: url('assets/images/gta-hero.jpg') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 800px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.hero .btn {
+    padding: 10px 20px;
+    background-color: #f39c12;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.hero .btn:hover {
+    background-color: #e67e22;
+}
+
+/* Community Posts Section */
+.community-posts {
+    padding: 50px 10%;
+}
+
+.community-posts h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.posts-container {
+    margin-bottom: 30px;
+}
+
+.post {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.post p {
+    font-size: 18px;
+}
+
+#post-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#post-content {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+}
+
+#post-form button {
+    padding: 10px 20px;
+    background-color: #f39c12;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+#post-form button:hover {
+    background-color: #e67e22;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    margin-top: 50px;
+}
